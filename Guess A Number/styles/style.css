@@ -1,0 +1,66 @@
+/*
+*   Style for Guess A Number
+*
+*/
+body {
+    margin: auto, 0;
+    color: rgb(237, 237, 241);
+    background-color: rgb(134, 218, 230);
+    width: 1000px;
+    text-align: center;
+    font-size: 22px;
+}
+#container {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 40vh;
+    background-color: rgb(82, 82, 85);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+input {
+    font-weight: 500;
+    color: rgb(237, 237, 241);
+    border: 2px solid rgb(66, 66, 68);
+    width: 10em;
+    background-color: rgb(82, 82, 85);
+    box-shadow: 5 5 rgba(28, 28, 29, 0.5);
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+input:focus {
+    transform: scale( 1.25);
+    border: 4px solid rgb(66, 66, 68);
+    font-weight: 500;
+}
+button {
+    background-color: aquamarine;
+    box-shadow: 5 5 rgba(28, 28, 29, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: content;
+    width: 10em;
+    
+}
+button:hover {
+    transform: scale( 1.1);
+    font-weight: 400;
+}
+p {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+p:hover {
+    transform: scale(1.2);
+    font-weight: 600;
+}
