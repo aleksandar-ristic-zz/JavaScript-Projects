@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles/style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simple Calculator</h1>
+
+            <div class="integers">
+                <h2 id="result" maxlength="25">0</h2>
+
+                <label id="integerAlabel" for="integerA">A:</label>
+                <input id="integerA" type="number">
+
+
+                <label for="operators">Operator:</label>
+                <input id="operators" type="text" maxlength="1">
+
+                <label id="integerBlabel" for="integerB">B:</label>
+                <input id="integerB" type="number">
+            </div>
+
+            <button id="calculate" onclick="calculate();">=</button>
+
+        </div>
+
+        <!-- Scripts-->
+        <script src="scripts/script.js"></script>
+    </body>
+    
+</html>
